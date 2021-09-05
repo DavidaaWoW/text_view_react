@@ -1,0 +1,35 @@
+{
+  "displayName": "textview",
+  "defaultWidth": 160,
+  "defaultHeight": 24,
+  "components": "./index.js",
+  "icon": "./branching-logo.png",
+  "props": [
+    {
+      "name": "text",
+      "displayName": "Text",
+      "type": "number"
+    },
+    {
+      "name": "color",
+      "displayName": "Color",
+      "type": "color",
+      "default": "#00A898"
+    },
+    {
+      "name": "condition",
+      "displayName": "Condition",
+      "type": "number"
+    },
+    {
+      "name": "condition_second",
+      "displayName": "Condition second",
+      "type": "number"
+    },
+    {
+      "name": "output",
+      "displayName": "Output",
+      "type": "number"
+    }
+  ]
+}
